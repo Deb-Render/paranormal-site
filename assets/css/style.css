@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(/assets/images/skulls.jpg);
+    background-image: url(/assets/images/Backgrounds/skulls.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -34,7 +34,7 @@ body {
     width: 60%;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: auto;
+    /* margin: auto; */
 }
 
 
@@ -79,4 +79,49 @@ h2 {
 
 p {
     color: white;
+}
+
+/**************************************************************
+PODCAST PAGE START 
+*************************************************************/
+
+.pod-float {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 3500px;
+    margin-top: 40px;
+}
+
+
+.pod-page-links {
+    /* width: 60%%; */
+}
+
+.pod-links {
+    display: flex;
+    text-align: center;
+    width: 60%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.pod-link {
+    /* flex-direction: row; */
+    width: 40%;
+}
+
+.pod-img {
+
+    margin-top: 100px;
+
+
+}
+
+.pod-p {
+    width: 0;
+    min-width: 100%;
 }
